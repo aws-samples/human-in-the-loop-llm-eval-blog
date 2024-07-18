@@ -1,0 +1,125 @@
+context,summary,prompt
+"
+Agent: Good morning, thank you for calling SB Bank. My name is John. How may I assist you today?
+
+Customer: Hi John. My name is Sarah. I'm looking to get a new credit card and was hoping to understand my options with SB Bank.
+
+Agent: Great, Sarah. We have several excellent credit card offers available. What are you looking for in a new card? 
+
+Customer: Well, I'd like a card with no annual fee, good rewards on groceries and gas, and a 0% intro APR offer would be nice too. 
+
+Agent: Okay, let me take a look at what we have available that meets those needs. We have 5 cards I'd recommend taking a look at. The SB Rewards Card has no annual fee, 2x points on groceries and gas and 0% APR for the first 12 months. The SB Premier Card also has no annual fee, 3x points on groceries and gas, and 0% APR for 15 months. 
+
+Customer: Those both sound pretty good so far. What other options are there?
+
+Agent: We also have the SB Mileage Card with no annual fee, 2x miles on all purchases, and 0% APR for 12 months. The SB Cashback Card has no annual fee, 2% cashback on groceries and gas, and 0% APR for 6 months. And finally, the SB Platinum Card has a $95 annual fee but has the best rewards - 5x points on groceries and gas and 0% APR for 18 months.
+
+Customer: I see. Of those options, I think the SB Premier Card sounds the best for my needs. The extra 3x points on groceries and gas would really add up for me. And 15 months of 0% APR is great too. 
+
+Agent: Excellent choice! The SB Premier Card is one of our most popular cards. Would you like me to go ahead and submit an application for you today?
+
+Customer: Yes, let's do it! Please submit the application for me.
+
+Agent: You got it. I just need some basic information from you to complete the application...
+
+[Application process] 
+
+Agent: Thank you for providing all the details, Sarah. I've submitted your application and you should receive a decision within 7-10 business days. Do you have any other questions for me today?
+
+Customer: No, that covers everything! Thanks for your help in finding the best card for me.
+
+Agent: You're very welcome! We appreciate you choosing SB Bank and I hope you enjoy all the great benefits of the SB Premier Card. Have a wonderful rest of your day!
+
+Customer: Thanks, you too! Goodbye.
+
+Agent: Goodbye!
+","
+Sarah called to learn about credit card options with no annual fee, good rewards on groceries and gas, and an intro 0% APR offer. The agent discussed 5 card options that met her criteria, including the SB Rewards Card, SB Premier Card, SB Mileage Card, SB Cashback Card, and SB Platinum Card. Sarah selected the SB Premier Card for the 3x points on groceries and gas as well as the 15 months of 0% APR. The agent then submitted her application and informed her it would take 7-10 days to receive a decision.","
+
+Human: Answer the questions below, defined in <question></question> based on the transcript defined in <transcript></transcript>. If you cannot answer the question, reply with 'n/a'. Use gender neutral pronouns. When you reply, only respond with the answer. Do not use XML tags in the answer.
+
+<question>{call_metadata}</question>
+
+<transcript>
+{transcript}
+</transcript>
+
+Assistant: "
+"Agent: Good morning, thank you for calling SB Bank. My name is John. How may I assist you today?
+
+Customer: Hi John. My name is Sarah. I applied for a credit card from SB Bank 2 weeks ago but I haven't received it yet. Could you please check what's happening with that?
+
+Agent: Sure Sarah, let me pull up your application and take a look. May I have your full name and date of birth to verify your identity?
+
+Customer: It's Sarah Thompson, and my date of birth is March 5, 1985. 
+
+Agent: Thank you for confirming that. I see here your credit card application was approved on January 20th, and the card was sent out on the 21st. It typically takes 7-10 business days for the card to arrive. Since it's been over 2 weeks, it appears your card may be lost in transit. I sincerely apologize for the delay. Let me place a rush order for a replacement card to be sent to you right away.
+
+Customer: Okay, that would be great. This is so frustrating, I've been waiting to use the card and now it's lost. How long will it take to get the new card?
+
+Agent: We'll expedite the shipping at no cost to you. You should receive the replacement card within 2-3 business days. I'll also go ahead and waive the annual fee for the first year to make up for the inconvenience. 
+
+Customer: I appreciate you taking care of this. Once I get the new card, is there anything else I need to do to activate it?
+
+Agent: No, the card will arrive ready to use. Just go ahead and activate it as soon as you receive it by following the instructions that will come with it. Then you'll be all set to start using your new credit card.
+
+Customer: Sounds good, thank you for your help today!
+
+Agent: You're very welcome, Sarah. We appreciate your business and thank you for your patience. Don't hesitate to reach back out if you have any other questions or concerns. Have a great rest of your day!
+
+Customer: Thanks, you too!
+
+Agent: Thank you, goodbye!","
+
+Sarah called the bank about her credit card application that was approved two weeks ago but she hasn't received the card yet. The agent looked up her application and saw the card was sent out a week ago but has been lost in transit. The agent apologized and said a replacement card would be expedited and sent within 2-3 business days at no cost. The annual fee would also be waived for the first year due to the inconvenience. Once received, Sarah just needs to activate the card by following the instructions.","
+
+Human: Answer the questions below, defined in <question></question> based on the transcript defined in <transcript></transcript>. If you cannot answer the question, reply with 'n/a'. Use gender neutral pronouns. When you reply, only respond with the answer. Do not use XML tags in the answer.
+
+<question>{call_metadata}</question>
+
+<transcript>
+{transcript}
+</transcript>
+
+Assistant: "
+"
+Agent: Good morning, thank you for calling SB Bank. My name is John. How may I assist you today?
+
+Customer: Hi John. My name is Sarah. I'm calling because I was affected by the recent floods in California and need help with my credit card payment that's due soon. 
+
+Agent: I'm very sorry to hear that Sarah. We certainly understand this is a difficult situation. How can I help provide some relief?
+
+Sarah: Well, my home was badly damaged in the flooding. I just got back yesterday after evacuating for over a week. Between the repairs and replacing personal items, money is really tight. I don't think I can make my minimum payment on time. 
+
+Agent: I completely understand. We can definitely work with you on an extended payment plan given the circumstances. Let me take a look at your account details. Can you confirm your full name and credit card number?
+
+Sarah: Sure, my name is Sarah Jones and my card number is XXXX-XXXX-XXXX-1234.
+
+Agent: Thank you for confirming that. I see here you have a minimum payment of $325 due on the 24th of this month. How much additional time do you need to make this payment?
+
+Sarah: If I could get an extra 30 days that would be extremely helpful. I should have the funds together by then after getting the insurance settlement. 
+
+Agent: No problem, I can extend your due date by 30 days without any late fees. Your new minimum payment will be due on October 24th. Does that help provide enough relief?
+
+Sarah: Yes, that would be perfect. I really appreciate you working with me during this difficult time. It's such a relief to have one less thing to worry about.
+
+Agent: You're very welcome. We understand our customers may face hardships and we're here to help. I'm glad we could find a solution. Is there anything else I can assist with today?
+
+Sarah: No, you've been great. Thanks again for the payment extension. I'll make sure to have the payment in by the new due date.
+
+Agent: Sounds good Sarah. We'll look out for it then. I hope your situation improves soon. Please reach back out if you need anything else. Have a good rest of your day!
+
+Sarah: You too, thanks John!
+","
+
+Sarah called her credit card company seeking help with her upcoming minimum payment due to financial difficulties caused by flooding damage to her home. The agent was understanding and extended her payment due date by 30 days without penalties to provide relief during this difficult time.","
+
+Human: Answer the questions below, defined in <question></question> based on the transcript defined in <transcript></transcript>. If you cannot answer the question, reply with 'n/a'. Use gender neutral pronouns. When you reply, only respond with the answer. Do not use XML tags in the answer.
+
+<question>{call_metadata}</question>
+
+<transcript>
+{transcript}
+</transcript>
+
+Assistant: "

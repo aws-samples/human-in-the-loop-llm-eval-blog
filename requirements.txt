@@ -1,0 +1,9 @@
+streamlit
+matplotlib
+scikit-learn
+pandas
+langchain
+sagemaker
+tiktoken
+jupyter-black
+streamlit-aggrid
