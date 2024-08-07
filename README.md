@@ -5,6 +5,8 @@ Streamlit is used to display the human in the loop demo (to efficiently evaluate
 
 This streamlit demo is a comprehensive framework that encompasses a wide variety of processes including running automatic LLM generations and testing new instructions. This aims to improve the current Call Metadata generation solution so that it can produce accurate, contextually relevant, and safe outputs. The demonstration will play a crucial role in deploying improved LLM solutions effectively, addressing challenges related to bias, misinformation, and unintended outputs. This module implements a tool to enable the evaluation of LLMs by humans using a double-blind evaluation. It displays the different versions of outputs so that a human can compare quality of the outputs. 
 
+Data shown in this repository is generated call transcripts from Amazon Bedrock Anthropic Claude. 
+
 **Important: Run a SageMaker Studio Instance**
 
 ### Environment Settings
